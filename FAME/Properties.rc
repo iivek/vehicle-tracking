@@ -1,0 +1,283 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Croatian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_HRV)
+#ifdef _WIN32
+LANGUAGE LANG_CROATIAN, SUBLANG_DEFAULT
+#pragma code_page(1250)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041a04b0"
+        BEGIN
+            VALUE "CompanyName", "Mafia"
+            VALUE "FileDescription", "DirectShow Motion Tracking"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "DirectShow Motion Tracking"
+            VALUE "LegalCopyright", "Copyright © 2007"
+            VALUE "OriginalFilename", "DirectShow Motion Tracking.exe"
+            VALUE "ProductName", "Mafia DirectShow Motion Tracking"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x41a, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_TITLE               "Transform Function Properties"
+    IDS_TITLE1              "Kalman Properties"
+END
+
+#endif    // Croatian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_FORMVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 334
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 200
+    END
+
+    IDD_FORMVIEW1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 335
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 201
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_FORMVIEW DIALOGEX 0, 0, 342, 209
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CENTER | WS_CHILD
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "Absolute Difference",IDC_STATIC,15,158,85,34,BS_CENTER
+    GROUPBOX        "Morphological Operations",IDC_STATIC,128,117,87,76,
+                    BS_CENTER
+    GROUPBOX        "Blobs",IDC_STATIC,239,110,86,83,BS_CENTER
+    EDITTEXT        IDC_EDIT2,179,86,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,179,68,37,12,ES_AUTOHSCROLL
+    LTEXT           "Threshold1",IDC_STATICCE2,140,70,37,8
+    LTEXT           "Threshold2",IDC_STATICCE3,140,88,37,8
+    EDITTEXT        IDC_EDIT4,62,172,30,12,ES_AUTOHSCROLL
+    LTEXT           "Closing",IDC_STATIC,144,174,24,8
+    LTEXT           "Erosion",IDC_STATIC,143,131,25,8
+    LTEXT           "Dilation",IDC_STATIC,143,153,29,8
+    EDITTEXT        IDC_EDIT5,181,130,22,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT6,181,151,22,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT7,181,172,22,12,ES_AUTOHSCROLL
+    LTEXT           "TimeToLive",IDC_STATIC,246,140,49,8
+    LTEXT           "MinRectSize",IDC_STATIC,244,124,41,8
+    EDITTEXT        IDC_EDIT9,288,121,30,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT10,288,139,30,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT1,179,50,30,12,ES_AUTOHSCROLL
+    LTEXT           "Aperture",IDC_STATICCE1,141,51,29,8
+    GROUPBOX        "Output",IDC_STATIC,238,12,86,72,BS_CENTER
+    CONTROL         "Boxes, predictions",IDC_PREDICT,"Button",
+                    BS_AUTORADIOBUTTON,247,36,75,8
+    CONTROL         "Boxes, IDs",IDC_BOXESIDS,"Button",BS_AUTORADIOBUTTON,
+                    247,24,62,8
+    PUSHBUTTON      "Reset tracker",IDC_BUTTON1,250,156,60,28
+    CONTROL         "Edges, blobs",IDC_EDGESBLOBS,"Button",
+                    BS_AUTORADIOBUTTON,247,48,68,8
+    CONTROL         "Background",IDC_BCKGND,"Button",BS_AUTORADIOBUTTON,247,
+                    60,53,8
+    CONTROL         "Background, blobs",IDC_FOREGND,"Button",
+                    BS_AUTORADIOBUTTON,247,72,75,8
+    LTEXT           "Threshold",IDC_STATIC,23,174,37,8
+    EDITTEXT        IDC_EDIT67,61,55,35,12,ES_AUTOHSCROLL
+    LTEXT           "Alpha",IDC_STATICBE1,33,56,22,8
+    CONTROL         "Moving Edges",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,
+                    143,24,78,9
+    GROUPBOX        "",IDC_STATICBE,23,46,86,25
+    CONTROL         "Running Average",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,
+                    33,38,71,10
+    LTEXT           "Estimate background as:",IDC_STATICBE3,24,25,85,8
+    CONTROL         "Moving Median",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,
+                    33,76,63,10
+    CONTROL         "Median Estimation",IDC_RADIO4,"Button",
+                    BS_AUTORADIOBUTTON,33,115,73,10
+    GROUPBOX        "Canny Edge",IDC_STATICCE,135,37,88,68,BS_CENTER
+    LTEXT           "Epsilon",IDC_STATICBE5,35,133,22,8
+    EDITTEXT        IDC_EDIT68,63,131,35,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT69,63,92,30,12,ES_AUTOHSCROLL
+    GROUPBOX        "",IDC_STATICBE6,25,84,86,25
+    LTEXT           "Order",IDC_STATICBE7,35,94,22,8
+    GROUPBOX        "",IDC_STATICBE8,25,123,86,25
+    GROUPBOX        "Background Subtraction",IDC_STATIC,16,12,104,143,
+                    BS_CENTER
+    GROUPBOX        "Grouped Moving Edges",IDC_STATIC,127,12,104,100,
+                    BS_CENTER
+    CTEXT           "-->",IDC_STATIC,102,181,23,12,SS_CENTERIMAGE
+    CTEXT           "-->",IDC_STATIC,216,182,23,12,SS_CENTERIMAGE
+    CTEXT           "|",IDC_STATIC,312,92,8,8,SS_CENTERIMAGE
+    CTEXT           "^",IDC_STATIC,312,86,8,8,SS_CENTERIMAGE
+    CTEXT           "(Kalman Tracking)",IDC_STATIC,254,91,56,12,
+                    SS_CENTERIMAGE
+    CTEXT           "|",IDC_STATIC,312,101,8,8,SS_CENTERIMAGE
+    LTEXT           "|",IDC_STATIC,171,140,8,8,SS_CENTERIMAGE
+    CTEXT           "v",IDC_STATIC,169,145,8,8,SS_CENTERIMAGE
+    LTEXT           "|",IDC_STATIC,172,162,8,8,SS_CENTERIMAGE
+    CTEXT           "v",IDC_STATIC,170,167,8,8,SS_CENTERIMAGE
+END
+
+IDD_FORMVIEW1 DIALOGEX 0, 0, 342, 208
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CENTER | WS_CHILD
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_EDIT31,51,30,26,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT32,81,30,26,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT33,51,46,26,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT34,81,46,26,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT35,111,30,26,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT36,141,30,26,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT37,111,46,26,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT38,141,46,26,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT39,51,62,26,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT40,81,62,26,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT41,51,78,26,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT42,81,78,26,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT43,111,62,26,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT44,141,62,26,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT45,111,78,26,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT46,141,78,26,12,ES_AUTOHSCROLL
+    GROUPBOX        "ProcessNoise",IDC_STATIC,46,21,127,75,BS_CENTER
+    EDITTEXT        IDC_EDIT47,52,114,26,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT48,82,114,26,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT49,52,130,26,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT50,82,130,26,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT51,112,114,26,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT52,142,114,26,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT53,112,130,26,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT54,142,130,26,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT55,52,146,26,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT56,82,146,26,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT57,52,162,26,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT58,82,162,26,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT59,112,146,26,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT60,142,146,26,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT61,112,162,26,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT62,142,162,26,12,ES_AUTOHSCROLL
+    GROUPBOX        "Initial PosteriorCovarianceMatrix",IDC_STATIC,47,105,
+                    127,75,BS_CENTER
+    EDITTEXT        IDC_EDIT63,214,115,26,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT64,244,115,26,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT65,214,131,26,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT66,244,131,26,12,ES_AUTOHSCROLL
+    GROUPBOX        "MeasurementNoise",IDC_STATIC,206,105,71,43,BS_CENTER
+    LTEXT           "All negative values are rejected",IDC_STATIC,187,168,
+                    110,8
+    GROUPBOX        "Default Values",IDC_STATIC,197,27,85,64,BS_CENTER
+    PUSHBUTTON      "Revert",IDC_BUTTON2,212,45,53,34,BS_VCENTER
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
